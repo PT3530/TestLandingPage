@@ -66,6 +66,10 @@
     }
 
   , next: function () {
+  var totalCount = 4;
+     var num = Math.ceil( Math.random() * totalCount );
+     //document.body.background = 'Images/fundo'+num+'.jpg';
+
       if (this.sliding) return
       return this.slide('next')
     }
